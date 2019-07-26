@@ -1,4 +1,4 @@
-#  Stratus Meridian Dev Portal Docker Implementation
+#  Apigee Dev Portal Docker Implementation
 
 Hi! We wanted to build a quick docker implementation to containerize developer portal. Please feel free to fork and make it your own or add your contributions!
 
