@@ -24,8 +24,8 @@ COPY apache-drupal.conf /etc/apache2/sites-enabled/000-default.conf
 
 RUN mkdir /app
 
-# Download SM Dev portal code form packagist https://packagist.org/packages/stratus-meridian/drupal8-composer-project
-RUN composer create-project stratus-meridian/drupal8-composer-project:8.x-dev /app --no-interaction
+# Download SM Dev portal code from packagist https://packagist.org/packages/apigee/devportal-kickstart-project
+RUN composer create-project apigee/devportal-kickstart-project:8.x-dev /app --no-interaction
 
 RUN mkdir -p /app/config/sync
 
